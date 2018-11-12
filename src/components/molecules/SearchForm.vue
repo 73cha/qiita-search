@@ -13,6 +13,7 @@ export default {
   name: 'SearchForm',
   methods: {
     emit(eventName) {
+      /* eslint-disable-next-line */
       console.log(eventName);
     }
   },
