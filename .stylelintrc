@@ -1,0 +1,15 @@
+ {
+   "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-rational-order",
+    "stylelint-config-prettier"
+  ],
+  "ignoreFiles": [
+    "./assets/css/html5reset.css"
+  ],
+  "rules": {
+    "indentation": 2,
+    "string-quotes": "single",
+    "block-no-empty": null
+  }
+}
